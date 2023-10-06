@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+
+"Project-Id-Version: Add Post-Type\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: add-post-type-plugin\n"
+"X-Generator: Poedit 3.3.2\n"
+
+msgid "Add Post-Type"
+msgstr "Aggiungi Post-Type"
+
+msgid "Remove Post-Type"
+msgstr "Rimuovi Post-Type"
+
+msgid "Enable Post-Type"
+msgstr "Attiva Post-Type"
+
+msgid "Update Post-Type"
+msgstr "Modifica Post-Type"
+
+msgid "The name here.."
+msgstr "Inserire il nome.."
+
+msgid "The slug here.."
+msgstr "Inserire lo slug.."
+
+msgid "The singular name here.."
+msgstr "Inserire il nome singolare.."
+
+msgid "ADD CUSTOM POST-TYPE"
+msgstr "AGGIUNGI UN CUSTOM POST TYPE"
+
+msgid "ABOUT NEW POST-TYPE"
+msgstr "INFORMAZIONI NUOVO POST-TYPE"
+
+msgid "CUSTOM POSTS NAME"
+msgstr "NOME DEI POST"
+
+msgid "CUSTOM POST SLUG"
+msgstr "SLUG DEL POST"
+
+msgid "CUSTOM POST SINGULAR NAME"
+msgstr "NOME SINGOLARE DEL POST"
+
+msgid "CONTENT"
+msgstr "CONTENUTO"
+
+msgid "EXCERPT"
+msgstr "RIASSUNTO"
+
+msgid "THUMBNAIL"
+msgstr "IMMAGINE"
+
+msgid "COMMENTS"
+msgstr "COMMENTI"
+
+msgid "CUSTOM FIELDS"
+msgstr "CAMPI PERSONALIZZATI"
+
+msgid "ABOUT TAXONOMIES"
+msgstr "INFORMAZIONI TASSONOMIE"
+
+msgid "ADD POST-TYPE"
+msgstr "AGGIUNGI POST-TYPE"
+
+msgid "SELECT POST-TYPE TO BE REMOVED OR DISABLED"
+msgstr "SELEZIONA IL POST-TYPE DA RIMUOVERE O DISABILITARE"
+
+msgid "No custom posts to remove or disable."
+msgstr "Nessun Custom-Post da rimuovere o disabilitare."
+
+msgid "SELECT POST-TYPE"
+msgstr "SELEZIONA POST-TYPE"
+
+msgid "DISABLE"
+msgstr "DISABILITA"
+
+msgid "ENABLE"
+msgstr "RIATTIVA"
+
+msgid "DELETE"
+msgstr "ELIMINA"
+
+msgid "UPDATE"
+msgstr "MODIFICA"
+
+msgid "SELECT POST-TYPE TO BE ENABLED"
+msgstr "SELEZIONA IL POST-TYPE DA RIATTIVARE"
+
+msgid "No disabled custom posts to enable."
+msgstr "Nessun Custom-Post disabilitato da riattivare."
+
+msgid "SELECT POST-TYPE TO BE UPDATED"
+msgstr "SELEZIONA IL CUSTOM POST TYPE DA MODIFICARE"
+
+msgid "No custom posts to update."
+msgstr "Nessun Custom-Post da modificare."
+
+msgid "Error."
+msgstr "Errore."
+
+msgid "Post-Type created successfully!"
+msgstr "Post-Type creato con successo!"
+
+msgid "Error, Post-Type not created."
+msgstr "Errore, Post-Type non creato."
+
+msgid "Error, Post-Type already exists."
+msgstr "Errore, Post-Type già esistente."
+
+msgid "Elimination successful!"
+msgstr "Eliminazione andata a buon fine!"
+
+msgid "Error, elimination unsuccessful."
+msgstr "Errore, eliminazione non andata a buon fine."
+
+msgid "Disabling successful!"
+msgstr "Disabilitazione andata a buon fine!"
+
+msgid "Disabling '%s' successful!"
+msgstr "Disabilitazione '%s' andata a buon fine!"
+
+msgid "Type '%s' already disabled!"
+msgstr "Tipo '%s' già disabilitato!"
+
+msgid "Error, disabling fail."
+msgstr "Errore, Disabilitazione non andata a buon fine."
+
+msgid "Activation successful!"
+msgstr "Riattivazione andata a buon fine!"
+
+msgid "Error, activation fail."
+msgstr "Errore, riattivazione non andata a buon fine."
+
+msgid "Error, post not found."
+msgstr "Errore, post non trovato."
+
+msgid "Error, no changes to make."
+msgstr "Errore, nessuna modifica da effettuare."
+
+msgid "Error, changes not made."
+msgstr "Errore, modifiche non avvenute."
+
+msgid "Post-type updated but post changes not made."
+msgstr "Post-type aggiornato ma modifiche ai post non avvenute."
+
+msgid "Post-type updated but no posts to change."
+msgstr "Post-type aggiornato ma nessun post da modificare."
+
+msgid "Changes made. Posts updated: %x."
+msgstr "Modifiche avvenute! Posts modificati: %x."
+
+msgid "Post-type changes successful!"
+msgstr "Modifiche a Post-type apportate con successo!"
+
+msgid "Are you sure to make the changes?"
+msgstr "Sicuro di voler modificare?"
+
+msgid "Select at least one Post-Type!"
+msgstr "Selezionare almento un Post-Type!"
+
+msgid "Insert all text fields!"
+msgstr "Inserire tutti i campi testuali!"
+
+msgid "Are you sure to permanently delete?"
+msgstr "Sicuro di eliminare definitavamente?"
+
+msgid "Are you sure to disable? You can enable it later."
+msgstr "Sicuro di disabilitare? Potrai riattivarlo successivamente."
+
+msgid "The posts associated with their old slug `%1$s`, will lose the association with their Post-Type. Do you want to associate them with the new slug `%2$s`?"
+msgstr "I post associati al vecchio slug '%1$s', perderanno l'associazione al Post-Type, associarli al nuovo slug '%2$s'?"
+
+msgid "Do you want to permanently delete all associated posts?"
+msgstr "Vuoi cancellare definitivamente tutti i posts associati?"
+
+msgid "Success! Posts deleted: %x."
+msgstr "Successo! Posts eliminati: %x."
+
+msgid "Post-Type successful deleted but no posts to delete."
+msgstr "Post-Type eliminato ma nessun post da eliminare."
+
+msgid "Post-Type successful deleted! Error deleting posts."
+msgstr "Post-Type eliminato! Errore nell' eliminazione dei posts."
