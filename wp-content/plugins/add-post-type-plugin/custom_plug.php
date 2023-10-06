@@ -106,7 +106,7 @@ function disabled_custom_post_list()
 }
 
 include 'rest_api.php';
-include 'functions/capabilities_functions.php';
+// include 'functions/capabilities_functions.php';
 load_custom_post_type();
 
 global $wp_textdomain_registry;
