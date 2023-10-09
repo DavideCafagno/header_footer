@@ -68,7 +68,7 @@
                 <input id="search" class="form-control me-2" type="search" placeholder="Search"
                        aria-label="Search"
                        required>
-                <button class="btn btn-primary" onclick="search_fun(search.value)" type="submit">Search</button>
+                <button class="btn btn-success" onclick="search_fun(search.value)" type="submit">Search</button>
             </form>
         </div>
     </div>

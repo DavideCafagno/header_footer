@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
     <div style="min-height: 75%" class="mx-1 mx-sm-5 justify-content-center justify-content-sm-start">
-        <div style="width: fit-content" class="text-center text-sm-start px-1 px-sm-4 p-1 border border-2 rounded">
+        <div style="width: fit-content" class="text-center text-sm-start px-1 px-sm-4 p-1 border border-2 rounded mx-3 mx-sm-5">
             <span class="px-4" ><?php echo "Search result for : '" . $_REQUEST['s'] . "'"; ?></span>
         </div>
         <?php if (have_posts()):
