@@ -15,5 +15,10 @@ Text Domain: davidtheme
 */
 
 body{
-    padding: 0 5px;
+    padding: 0px;
 }
+a{
+    text-decoration: none;
+
+}
+

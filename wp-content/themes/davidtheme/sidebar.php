@@ -1,2 +1,4 @@
 <?php
-echo "SIDE";
+get_header();
+echo"Sidebar";
+get_footer();

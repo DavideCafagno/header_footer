@@ -11,5 +11,5 @@ function addscriptsStyle(){
     wp_enqueue_script('bootstraps_js');
     wp_register_style('bootstraps_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css');
     wp_enqueue_style('bootstraps_css');
-    wp_enqueue_style( 'twenty-twenty-one-style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style( 'main_style', get_template_directory_uri() . '/style.css');
 }
