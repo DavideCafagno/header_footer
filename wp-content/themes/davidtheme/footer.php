@@ -4,50 +4,18 @@
     }
 </style>
 <div class="container-fluid">
-    <div class="row bg-secondary py-3 border-top border-5 border-light" style="box-shadow: 0px 6px 13px 0 gray">
-        <div id="carouselExampleControlsNoTouching" class="carousel slide text-center" data-bs-touch="false">
-            <div class="carousel-inner text-center">
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-around mx-5">
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor A</div>
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor B</div>
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor C</div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-around mx-5">
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor D</div>
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor E</div>
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor F</div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-around mx-5">
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor G</div>
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor H</div>
-                        <div class="btn btn-danger py-2 py-sm-4 px-1 px-sm-2 px-md-3 px-lg-5 rounded">Sponsor I</div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                    data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                    data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
 
-    </div>
-    <div >
+<?php get_template_part('template/sponsor-bar'); ?>
+
+    <div>
         <footer class="row row-cols-1 text-center row-cols-sm-2 row-cols-md-4 softgray py-5 px-3">
             <div class="col mb-3 ">
                 <a href="<?php echo get_home_url(); ?>" class="mb-3 link-dark text-decoration-none h2">
                     <?php echo bloginfo('name'); ?>
                 </a>
+                <?php if(has_custom_logo()):?>
+                    <a class="navbar-brand light-up me-5" href="<?php echo get_home_url();?>"><?php echo get_custom_logo(); ?></a>
+                <?php endif;?>
             </div>
             <div class="col mb-3 d-block d-sm-none">
                 <hr class="d-block d-sm-none mx-5">
@@ -154,8 +122,10 @@
             </div>
 
         </footer>
-        <div class="row py-2 softgray">
-            <div class="text-muted text-center text-muted">Theme Creation © 2023</div>
+        <div class="row py-2 softgray justify-content-center">
+            <div class="col-7 col-sm-4 col-md-3 col-lg-3 col-xl-2 my-1 text-muted text-center text-muted"><?php echo bloginfo('name') ?> © 2023</div>
+            <div class="col-7 col-sm-3 col-md-2 my-1 text-muted text-center text-muted">Privacy Policy</div>
+            <div class="col-7 col-sm-3 col-md-2 my-1 text-muted text-center text-muted"><?php echo __('Maps','davidtheme'); ?></div>
         </div>
     </div>
 </div>

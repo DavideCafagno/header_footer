@@ -12,3 +12,18 @@ msgstr ""
 
 msgid "David Theme"
 msgstr "Tema di Davide"
+
+msgid "Page not found."
+msgstr "Pagina non trovata."
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Search result for: '<i>%s</i>'"
+msgstr "Risultati di ricerca per: '<i>%s</i>'"
+
+msgid "No content for searched criteria.."
+msgstr "Nessun contentuto per i creiteri di ricerca.."
+
+msgid "Maps"
+msgstr "Dove siamo"
