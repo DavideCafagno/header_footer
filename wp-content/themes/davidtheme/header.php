@@ -30,7 +30,7 @@
         <?php if(!has_custom_logo()):?>
         <a class="navbar-brand light-up me-5" href="<?php echo get_home_url();?>"><?php echo bloginfo('name') ?></a>
         <?php else:?>
-            <a class="navbar-brand light-up me-5" href="<?php echo get_home_url();?>"><?php echo get_custom_logo(); ?></a>
+            <a class="navbar-brand me-2 " href="<?php echo get_home_url();?>"><img class="rounded" style="max-width: 90px;" src="<?php echo wp_get_attachment_image_src(get_theme_mod( 'custom_logo' ))[0]; ?>"></a>
         <?php endif;?>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarTogglerDemo02"
@@ -53,14 +53,14 @@
                 <?php endforeach; ?>
 
                 <?php if (!empty($lang)): ?>
-                    <li class="nav-item dropdown light-up">
+                    <li class="nav-item dropdown light-up mx-2">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             <?php echo __("Language",'davidtheme');?><img class="trp-flag-image ms-2" src="<?php echo site_url();?>/wp-content/plugins/translatepress-multilingual/assets/images/flags/<?php echo get_locale()?>.png" width="18" height="12" alt="<?php echo get_locale();?>">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <?php foreach ($lang as $l): ?>
-                                <li class="d-flex justify-content-between"><a class="dropdown-item col"
+                                <li class="d-flex justify-content-between "><a class="dropdown-item col"
                                                                               href="<?php echo $l->url; ?>"><?php echo $l->title; ?></a>
                                 </li>
                             <?php endforeach; ?>

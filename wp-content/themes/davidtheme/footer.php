@@ -14,7 +14,7 @@
                     <?php echo bloginfo('name'); ?>
                 </a>
                 <?php if(has_custom_logo()):?>
-                    <a class="navbar-brand light-up me-5" href="<?php echo get_home_url();?>"><?php echo get_custom_logo(); ?></a>
+                    <br><a class="navbar-brand mt-2" href="<?php echo get_home_url();?>"><img class="rounded-pill mt-4 shadow" style="max-width: 70%;" src="<?php echo wp_get_attachment_image_src(get_theme_mod( 'custom_logo' ))[0]; ?>"></a>
                 <?php endif;?>
             </div>
             <div class="col mb-3 d-block d-sm-none">
